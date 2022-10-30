@@ -1,27 +1,20 @@
-## JavaScript - A light-weight compliled programming language with 1st class functions known for scripting language.
-    * Also used for: Node.js, Apache, CouchDB & Adobe 
-    * a *PROTOTYPE* based single threaded, dynamic language supporting object orientation imperative and declarative styles
 
-^ 4 Ways to declare JavaScript & Variable:
-    1) Using variables 
-    2) Using "let"
-    3) Using const.
-    4) Using nothing
+# JavaScript Object Basics
 
-* Variables - Containers for storing data
-    EX: x, y, z -> declare JavaScript variables with var, let, or const.
+1. How would you describe an object to a non-technical friend you grew up with?
+    -  A collection of related data and/or functionality.
+2. What are some advantages to creating object literals?
+    - convenience, flexibility in declaration, and less code during declaration.
+3. How do objects differ from arrays? Objects represent “things” with characteristics **(properties)** and arrays create and store lists of data in a single variable.
+4. Give an example for when you would need to use bracket notation to access an object’s property instead of dot notation.
+    - When we are accessing an object's property using a variable or when the property's key is a number or includes a symbol or is two words with a space.
+5. Evaluate the code below. What does the term **this** refer to and what is the advantage to using this?
+    - **"This”** refers to an object that is executing the current piece of code. It references the object that is executing the current function. The advantage is not having to using "this" is it can be applied to any object.
 
-* ALL JavaScript variables must be identified with identifiers 
-    Identifiers - Short names (ex: x, y) or descriptive names (ex: age, sum, total, value)
+## Introduction To The DOM
 
-* Constructing name rules:
-    1) Names can contain letters, digits, underscores, and dollar sign
-    2) Must begin with letter, (.), ($), ($), (_)
-    3) Case sensitive (y and Y have different meanings)
-    4) Reserved words (JavaScript keywords) can't be names
+6. What is the DOM?
+    - **"The W3C Document Object Model (DOM)** is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.
+7. Briefly describe the relationship between the DOM and JavaScript.
+    - JavaScript allows you to manipulate the DOM that controls the client side scripting.
 
-* Conditional logic:
-if (this is true){do this thing}
-    else{ do that thing}
-if(userName == "Cori"){
-    console.log("Hey Cori);
