@@ -6,3 +6,4 @@
 
 [102 Class 1 Notes](102/class1.md);
 [201 Class 2 Notes](201/class2.md);
+[201 Class 2 Notes](301/class3.md);
