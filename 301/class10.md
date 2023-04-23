@@ -11,7 +11,6 @@
   functionB();
   console.log("Leaving functionA");
 }
-
 function functionB() {
   console.log("Entering functionB");
   functionC();
