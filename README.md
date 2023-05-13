@@ -11,8 +11,5 @@ Code 401 - Advanced Software Development
 
 [102 Class 1 Notes](102/class1.md);
 [201 Class 2 Notes](201/class2.md);
-<<<<<<< HEAD
-[301 Class 3 Notes](301/class1.md); 
-=======
-[201 Class 2 Notes](301/class3.md);
->>>>>>> 14fbc57e32fea3cb8bba62e5204ac99c7d625f59
+[301 Class 3 Notes](301/class3.md);
+[401 Class 4 Notes](401/class4.md);

@@ -1,0 +1,12 @@
+# The Command Line 
+
+The command line, also known as the command prompt or terminal, is a text-based interface that allows you to interact with your computer using text commands. It provides a way to execute various commands, run programs, navigate the file system, manage files and directories, and perform other tasks.
+
+## Opening a Terminal
+*Mac* Terminal under "Applications -> Utilities"
+*Linux* then you will probably find it in "Applications -> System or Applications -> Utilities"
+*Windows and intend to remotely log into another machine then you will need an SSH client*
+
+### The Shell, Bash
+Shell - In terminal - part of the operating system that defines how the terminal will behave and looks after running (or executing) commands for you. 
+Most common one is called **bash** which stands for "Bourne again shell".

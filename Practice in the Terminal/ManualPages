@@ -1,0 +1,9 @@
+# Manual Pages
+
+*Manual pages* - set of pages that explain every command available on your system including what they do, the specifics of how you run them and what command line arguments they accept.
+
+## Searching
+You can search keywords on the Manual pages 
+    _ ex man -k <search keyword> 
+    - Manual page search - while in the particular manual page press forward slash '/' followed by the term you would like to search for and hit 'enter'. If the term appears multiple times you may cycle through them by pressing the 'n' button for next.
+

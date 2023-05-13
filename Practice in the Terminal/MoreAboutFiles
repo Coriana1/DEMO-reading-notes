@@ -1,0 +1,17 @@
+# More About Files 
+
+EVERYTHING IS A FILE - text, keyboards, monitor, ect
+
+A file extension is normally a set of 2 - 4 characters after a full stop at the end of a file, which denotes what type of file it is. The following are common extensions:
+
+- file.exe - an executable file, or program.
+- file.txt - a plain text file.
+- file.png, file.gif, file.jpg - an image.
+
+**File** command sbows what particular type of file it is
+
+## Linux is Case Sensitive
+Be aware of case sensitivity when dealing with command line options 
+
+### Spaces in names
+Spaces in file/directory names are valid 

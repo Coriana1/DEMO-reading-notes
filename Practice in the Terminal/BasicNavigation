@@ -1,0 +1,15 @@
+# Basic Navigation
+
+## Moving around the system
+* pwd - print working directory - tells you what your current or present working directory is.
+      -  Use of this command to remind yourself where you presently are
+
+* ls - list - will tell you you CURRENT LOCATION within a file/directory 
+
+* path - to get to a particular file or directory on the system 
+      - two types: absolute: specify a location (file/directory) in relation to the root directory & always begin with a forward slash
+                  relative:  specifies the location of a file or directory relative to the current working directory.
+                        - ~ (tilde) - shortcut for your home directory
+                        - . (dot) - reference to your current directory
+                        - .. (dotdot)- reference to the parent directory
+* cd - change directory - move around in the system to another directory.

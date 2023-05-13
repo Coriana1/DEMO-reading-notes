@@ -1,0 +1,18 @@
+# File Manipulation
+
+## Making a Directory
+Linux organises it's file system in a hierarchical way
+  - mkdir - make directory - creates directory
+
+### Removing a Directory
+  - rmdir - remove directory 
+    * Two things to note. 1. rmdir supports the -v and -p options similar to mkdir. 2. a directory must be empty before it may be removed 
+
+#### Creating a Blank File
+  - touch - creates blank files - use to modify the access and modification times on a file
+
+#### Copying a File or Directory
+   - cp - copy - duplicate files or directory 
+
+#### Moving a File or Directory
+   - mv - move - similar to cp but can move directories without having to provide the -r option.
