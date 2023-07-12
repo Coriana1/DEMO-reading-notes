@@ -1,0 +1,11 @@
+# Reading: Context API - Behaviors
+
+## Scaling Up with Reducer and Context
+1. How do useReducer and useContext work together to simplify state management in a React application? (At least two paragraphs of prose.)
+  - In React applications, managing state can become complex as the application grows. To simplify state management, React provides two hooks: useReducer and useContext.
+
+useReducer is a hook that allows you to manage complex state by combining the state and action dispatching into a single function. It follows the concept of a reducer, where you define how state should change based on different actions. By encapsulating the state management logic within a reducer function, useReducer provides a predictable way to handle state updates, especially for managing state with multiple actions or complex logic. This helps keep your components focused on their rendering logic while delegating the state management to the reducer.
+
+useContext allows components to access shared state without the need for passing props through multiple levels of components. It provides a way to create and consume a shared state across the component tree. By creating a context using the createContext function, you define a central place to store shared state. The useContext hook then enables components to access that shared state from anywhere in the component tree. This eliminates the need for prop drilling, where props are passed down through intermediate components to reach deeply nested components. With useContext, you can directly import the context and use it in any component that requires access to the shared state.
+
+When used together, useReducer and useContext simplify state management in React. By centralizing state management within a reducer function and accessing it through a shared context, you can eliminate the complexities of passing props and managing state across multiple components. This combination reduces code complexity, improves code organization, and enhances maintainability. It makes it easier to reason about and update your application's state, providing a more efficient and streamlined approach to state management in React.
